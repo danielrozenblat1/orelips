@@ -1,0 +1,166 @@
+.container {
+    width: 300px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.2); /* רקע שקוף למחצה */
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+  
+  .circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #fcafa3, #c26c59c7, #de7b6e67);
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 2; /* להבטיח שהעיגול יהיה מעל הרקע המטושטש */
+  }
+  
+  .icon {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .title {
+    font-family: 'Assistant';
+    font-size: 1.1rem;
+    z-index: 1;
+    color: #000000;
+    margin: auto 0;
+    text-align: center;
+    position: relative; /* להבטיח שהטקסט יהיה מעל הרקע המטושטש */
+  }
+
+/* Responsive styles */
+@media (max-width: 350px) {
+  .container {
+    max-width: 200px;
+    height: 100px; /* הגדלתי מעט כדי לתת מקום לכותרת */
+    margin:25px auto;
+  }
+  
+  .circle {
+    width: 60px;
+    height: 60px;
+    top: -30px;
+  }
+  
+  .icon {
+    width: 45px;
+    height: 45px;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 450px) {
+  .container {
+    max-width: 300px;
+    height: 120px; /* הגדלתי מעט כדי לתת מקום לכותרת */
+    margin:30px auto;
+  }
+  
+  .circle {
+    width: 70px;
+    height: 70px;
+    top: -40px;
+  }
+  
+  .icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .title {
+    font-size: 1.2rem;
+    width:95%;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 550px) {
+  .container {
+      max-width: 350px;
+      height: 140px;
+      margin: 35px auto;
+  }
+  
+  .circle {
+      width: 70px;
+      height: 70px;
+      top: -40px;
+  }
+  
+  .icon {
+      width: 60px;
+      height: 60px;
+  }
+
+  .title {
+      font-size: 1.3rem;
+      width: 95%;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 650px) {
+  .container {
+      max-width: 400px;
+      height: 160px;
+      margin: 40px auto;
+  }
+  
+  .circle {
+      width: 75px;
+      height: 75px;
+      top: -35px;
+  }
+  
+  .icon {
+      width: 60px;
+      height: 60px;
+  }
+
+  .title {
+      font-size: 1.35rem;
+      width: 95%;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 750px) {
+  .container {
+      max-width: 450px;
+      height: 160px;
+      margin: 35px auto;
+  }
+  
+  .circle {
+      width:70px;
+      height: 70px;
+      top: -35px;
+  }
+  
+  .icon {
+      width: 80px;
+      height: 80px;
+  }
+
+  .title {
+      font-size: 1.4rem;
+      width: 95%;
+  }
+}

@@ -1,0 +1,223 @@
+.syllabus {
+    font-family: "Assistant", sans-serif;
+
+    border-radius: 15px;
+ 
+    padding: 40px;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    direction: rtl;
+  }
+  
+  .header {
+    font-size: 4rem;
+    font-family: "Assistant";
+    text-align: center;
+    margin: 2% auto;
+    direction: rtl;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .intro {
+    font-size: 1.4rem;
+    font-family: "AssistantR";
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 2% auto;
+    direction: rtl;
+    width: 70%;
+  }
+  
+  .logo {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .logo img {
+    max-width: 180px;
+  }
+  
+  .title {
+    color: white;
+    width: 70%;
+    text-align: right;
+    background: #8E2933;
+    margin-left: auto;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .description {
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #333;
+    width:90%; 
+    margin:2% auto;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+  
+  .bulletPoints, .text, .benefits {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 25px;
+    margin:10px;
+    border-radius: 10px;
+ 
+    text-align: right;
+  }
+  
+  .bulletPoints {
+    width: 45%;
+  }
+  
+  .text {
+    width: 45%;
+  }
+  
+  .bulletPointItem, .benefitItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    width:90%
+  }
+  
+  .vIcon {
+    color: white;
+    font-size: 18px;
+    margin-left: 15px;
+    background-color: #8E2933;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  
+  .subtitle {
+    color: white;
+    width: 50%;
+    text-align: right;
+    background: #8E2933;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .schedule {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .scheduleItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    width:90%;
+    font-size: 16px;
+  }
+  
+  .time {
+    color: #8E2933;
+    font-weight: bold;
+    margin-left: 15px;
+    min-width: 100px;
+  }
+  
+  .benefits {
+    margin-top: 30px;
+  }
+  
+  .benefitsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .benefitItem {
+    width: 48%;
+  }
+  
+  @media (max-width: 350px) {
+    .syllabus { width: 100%; padding: 10px 0; }
+    .header { font-size: 2rem; width: 95%; }
+    .intro { font-size: 1rem; width: 95%; }
+    .logo img { max-width: 120px; }
+    .title { font-size: 20px; width: 95%; margin: 2% auto; padding: 5px 10px; }
+    .content { flex-direction: column; }
+    .bulletPoints, .text, .benefits { 
+        width: 90%; 
+        margin: 2% 0 2% auto; 
+        padding: 5px 10px 5px 5px;
+        border-radius: 10px 0 0 10px;
+    }
+    .bulletPointItem, .scheduleItem, .benefitItem { font-size: 14px; }
+    .subtitle { font-size: 18px; width: 80%; }
+    .benefitItem { width: 95%; margin: 2% auto; }
+}
+
+@media (min-width: 350px) and (max-width: 450px) {
+    .syllabus { width: 100%; padding: 15px 0; }
+    .header { font-size: 2.2rem; width: 95%; }
+    .intro { font-size: 1.05rem; width: 95%; }
+    .logo img { max-width: 130px; }
+    .title { font-size: 21px; width: 95%; margin: 2% auto; padding: 7px 12px; }
+    .content { flex-direction: column; }
+    .bulletPoints, .text, .benefits { 
+        width: 92%; 
+        margin: 2% 0 2% auto; 
+        padding: 7px 12px 7px 7px;
+        border-radius: 10px 0 0 10px;
+    }
+    .bulletPointItem, .scheduleItem, .benefitItem { font-size: 14.5px; }
+    .subtitle { font-size: 19px; width: 85%; }
+    .benefitItem { width: 95%; margin: 2% auto; }
+}
+
+@media (min-width: 450px) and (max-width: 550px) {
+    .syllabus { width: 95%; padding: 20px 0; }
+    .header { font-size: 2.4rem; width: 95%; }
+    .intro { font-size: 1.1rem; width: 90%; }
+    .logo img { max-width: 140px; }
+    .title { font-size: 22px; width: 90%; margin: 2% auto; padding: 8px 15px; }
+    .content { flex-direction: column; }
+    .bulletPoints, .text, .benefits { 
+        width: 94%; 
+        margin: 2% 0 2% auto; 
+        padding: 10px 15px 10px 10px;
+        border-radius: 10px 0 0 10px;
+    }
+    .bulletPointItem, .scheduleItem, .benefitItem { font-size: 15px; }
+    .subtitle { font-size: 20px; width: 85%; }
+    .benefitItem { width: 90%; margin: 2% auto; }
+}
+
+@media (min-width: 550px) and (max-width: 750px) {
+    .syllabus { width: 95%; padding: 25px 0; }
+    .header { font-size: 2.7rem; width: 90%; }
+    .intro { font-size: 1.2rem; width: 85%; }
+    .logo img { max-width: 150px; }
+    .title { font-size: 24px; width: 85%; margin: 2% auto; padding: 10px 20px; }
+    .content { flex-direction: column; }
+    .bulletPoints, .text, .benefits { 
+        width: 96%; 
+        margin: 2% 0 2% auto; 
+        padding: 15px 20px 15px 15px;
+        border-radius: 10px 0 0 10px;
+    }
+    .bulletPointItem, .scheduleItem, .benefitItem { font-size: 16px; }
+    .subtitle { font-size: 22px; width: 80%; }
+    .benefitItem { width: 85%; margin: 2% auto; }
+}
