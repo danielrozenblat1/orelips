@@ -12,6 +12,8 @@ import { useEffect, useState } from 'react';
 import BasicAccordion from './components/Akordion/Akordion';
 import AboutMe from './components/me/Me';
 import ByMe from './components/ByMe/ByMe';
+import ForthScreen from './screens/ForthScreen';
+import FormScreen from './components/form/FormScreen';
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -39,14 +41,16 @@ function App() {
   return <>
   <NavBarNew/>
   <FirstScreen scrolled={scrolled}/>
+
   <SecondScreen/>
   <ThirdScreen/>
+  <FormScreen/>
   <AboutMe/>
   <Sillabus/>
   <Results/>
   <Eyebrows/>
   <Recommends/>
-
+  <ForthScreen/>
   <BasicAccordion/>
   <ByMe/>
   </>

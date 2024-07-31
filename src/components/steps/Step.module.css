@@ -1,6 +1,6 @@
 
 .bubble {
-  background: linear-gradient(135deg, #ffbab4 0%, #ca5858 100%);
+  background: linear-gradient(135deg, #facbc6 0%, #f99393 100%);
   border-radius: 30px 30px 30px 5px;
   padding: 25px;
   width: 300px;
@@ -44,13 +44,13 @@
   font-size: 1.4rem;
   font-family: "Assistant", sans-serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  color: #ffffff;
+  color: #000000;
   margin-bottom: 10px;
 }
 
 .description {
   font-size: 0.95rem;
-  color: #ffffff;
+  color: rgb(0, 0, 0);
   line-height: 1.4;
   font-family: "Assistant", sans-serif;
 }

@@ -15,10 +15,10 @@ function DropdownAccordion({ title, content }) {
       <Accordion
         expanded={expanded}
         sx={{
-            boxShadow: '0px 2px 15px 0px rgba(87, 0, 140, 0.2)',
+            boxShadow: '0px 2px 5px 0px #333',
           width: "100%",
           margin: "auto",
-          background:"linear-gradient(to left, #ffb6c1, #ff69b4)",
+          background:"linear-gradient(120deg, #FFACAF 0%, #FFEEEF 100%);",
   
           display: "flex",
           flexDirection: "column",

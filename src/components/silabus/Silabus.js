@@ -66,7 +66,11 @@ const Sillabus = () => {
           </div>
           <div className={styles.bulletPointItem}>
             <span className={styles.vIcon}>✓</span>
-            <span>שימוש נכון במומרים "פיגמנטים מאלחשים" מחטים</span>
+            <span>שימוש נכון בחומרים "פיגמנטים מאלחשים" מחטים</span>
+          </div>
+          <div className={styles.bulletPointItem}>
+            <span className={styles.vIcon}>✓</span>
+            <span>תרגול על מודליסטית</span>
           </div>
           <div className={styles.bulletPointItem}>
             <span className={styles.vIcon}>✓</span>
@@ -138,10 +142,7 @@ const Sillabus = () => {
             <span className={styles.vIcon}>✓</span>
             <span>ערכת כלים בסיסית</span>
           </div>
-          <div className={styles.benefitItem}>
-            <span className={styles.vIcon}>✓</span>
-            <span>גישה לקבוצת תמיכה מקצועית</span>
-          </div>
+
           <div className={styles.benefitItem}>
             <span className={styles.vIcon}>✓</span>
             <span>הנחה על קורסים עתידיים</span>

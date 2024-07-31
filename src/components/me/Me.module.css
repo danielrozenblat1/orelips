@@ -37,21 +37,21 @@
 }
 
 .title {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     color: #000000;
     margin-bottom: 10px;
     font-family: "Assistant";
 }
 
 .subtitle {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     color: #000000;
     font-family: "Assistant";
     margin-bottom: 15px;
 }
 
 .description {
-    font-size: 1em;
+    font-size: 1.1rem;
     line-height: 1.6;
     font-family: "AssistantR";
     color: #000000;
@@ -84,15 +84,15 @@
     }
     
     .title {
-        font-size: 1.8em;
+        font-size: 2rem;
     }
     
     .subtitle {
-        font-size: 1em;
+        font-size: 1.2rem;
     }
     
     .description {
-        font-size: 0.9em;
+        font-size: 1rem;
     }
 }
 
@@ -116,11 +116,11 @@
     }
     
     .title {
-        font-size: 2em;
+        font-size: 2.5rem;
     }
     
     .subtitle {
-        font-size: 1.1em;
+        font-size: 1.2rem;
     }
 }
 

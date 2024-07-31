@@ -9,14 +9,17 @@ const AboutMe = () => {
         <img src={orel} alt="אוראל דרעי" className={styles.image} />
       </div>
       <div className={styles.content}>
-        <h1 className={styles.title}>אוראל דרעי</h1>
+        <h1 className={styles.title}>אוראל דרי</h1>
         <h2 className={styles.subtitle}>
           𝐏𝐌𝐔 𝐄𝐗𝐏𝐄𝐑𝐓 | שפתיים | גבות
         </h2>
         <p className={styles.description}>
-          כבר מגיל קטן התאהבתי בתחום וידעתי שאני אעסוק בו!
-          והיום, כשהגשמתי את החלום והפכתי מאות בחורות למאושרות
-          אני בטוחה שהייעוד שלי זה למקצע אתכן בתחום!
+        הכל התחיל לפני 4 שנים, שניגשתי בעצמי לעשות טיפול שפתיים.
+הגעתי לקליניקה בחיפה שאומנם בעלת שם טוב, אך החוויה הייתה פחות נעימה.
+פחות הייתי מרוצה ואפילו לא ענו לי על שאלות בהמשך בנוגע להחלמה.
+החלטתי לשנות את כל הגישה בעולם המיקרו פיגמנטציה! בעסק שלי אני דוגלת על מקצועיות, נקיון וליווי אישי מההתחלה ועד התוצאה הרצויה.
+והיום - לאחר שנים של נסיון ומאות לקוחות אני גאה להגיד שהגעתי ליעד.
+אני מזמינה אותך, לבוא אלי ולהגשים את החלום.
         </p>
       </div>
     </div>
