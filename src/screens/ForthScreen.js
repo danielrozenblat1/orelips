@@ -1,6 +1,6 @@
 import styles from "./ForthScreen.module.css"
-import happy from "../images/מול המראה שפתיים.png"
-import orelips from "../images/אוראל תעודה.png"
+import happy from "../images/אורליפס שפתיים דוגמא.png"
+import orelips from "../images/אוראל דרי.png"
 import FormScreen from "../components/form/FormScreen"
 const ForthScreen=(props)=>{
 
